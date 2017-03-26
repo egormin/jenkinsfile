@@ -5,7 +5,7 @@ node {
    {
    		
   		sh "cd /vagrant/scenario2"
-  		sh "/root/.pyenv/versions/3.6.0/bin/ansible-playbook /vagrant/scenario2/provisioning.yml"  
+  		sh "/root/.pyenv/versions/3.6.0/bin/ansible-playbook /vagrant/scenario2/provisioning.yml -vv"  
 	}
 
 
