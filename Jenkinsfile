@@ -5,7 +5,7 @@ node {
    {
    		
   		sh "cd /vagrant/scenario2"
-  		sh "/usr/bin/vagrant up"  
+  		sh "ansible-playbook provisioning.yml"  
 	}
 
 
